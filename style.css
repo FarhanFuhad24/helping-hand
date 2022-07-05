@@ -32,6 +32,7 @@ p{
 a{
     text-decoration: none;
     font-weight: 600;
+    color: blue;
     border: 2px solid rgb(9, 172, 212);
     background-color: rgb(9, 172, 212);
     padding: 15px 15px;
@@ -44,6 +45,20 @@ a{
 #update{
     font-size: 40px;
 }
+.amount{
+    text-align: center;
+    border-bottom: 1px solid;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 40px;
+}
+.button{
+    text-align: center;
+    padding-bottom: 100px;
+}
+#other{
+    padding-bottom: 20px;
+}
 form{
     border: 3px solid bisque;
     background-color: bisque;
@@ -52,8 +67,9 @@ form{
     margin-bottom: 100px;
     padding: 40px 40px 40px 40px;
 }
-.container{
-   padding-left: 320px;
+.container-btn{
+   padding-left: 360px;
+   margin-bottom: 50px;
    font-size: 20px;
 }
 input[type=submit] {
@@ -71,6 +87,11 @@ input[type=submit] {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+.container{
+    padding-left: 360px;
+    padding-bottom: 40px; 
+    padding-top: 20px;  
+}
 footer{
     background-color: black;
 }
@@ -85,4 +106,34 @@ footer{
 #footer-end{
     color: white;
     font-size: 20px;
+}
+.btn-one{
+    padding: 40px 35px;
+    margin-right: 10px;
+    border: 1px bisque;
+    font-size: 15px;
+}
+.btn-two{
+    padding: 40px 35px;
+    margin-right: 10px;
+    border: 1px bisque;
+    font-size: 15px;
+}
+.btn-three{
+    padding: 40px 35px;
+    margin-right: 10px;
+    border: 1px bisque;
+    font-size: 15px;
+}
+.btn-four{
+    padding: 40px 35px;
+    margin-right: 10px;
+    border: solid 1px red;
+    color: red;
+    font-size: 20px;
+}
+.btn-five{
+    padding: 40px 35px;
+    border: 1px bisque;
+    font-size: 15px;
 }
