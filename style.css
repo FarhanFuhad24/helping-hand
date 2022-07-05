@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.header{
+    background-image: url("images/donation9.jpg");
+    background-position: center;
+    background-size: 100%;
+    text-align: center;
+    padding-top: 260px;
+    padding-bottom: 200px;
+}
+h1{
+    color: black;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+}
+p{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-weight: 600;
+    border: 2px solid rgb(9, 172, 212);
+    background-color: rgb(9, 172, 212);
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+.anytime{
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
