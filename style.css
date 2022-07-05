@@ -37,7 +37,52 @@ a{
     padding: 15px 15px;
     border-radius: 10px;
 }
-.anytime{
+.donate{
     padding-top: 100px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
+}  
+#update{
+    font-size: 40px;
+}
+form{
+    border: 3px solid bisque;
+    background-color: bisque;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    padding: 40px 40px 40px 40px;
+}
+.container{
+   padding-left: 320px;
+   font-size: 20px;
+}
+input[type=submit] {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  input[type=text] {
+    width: 40%;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+footer{
+    background-color: black;
+}
+#footer-start{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(9, 172, 212);
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#footer-end{
+    color: white;
+    font-size: 20px;
 }
