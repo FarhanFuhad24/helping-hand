@@ -45,6 +45,11 @@ a{
 #update{
     font-size: 40px;
 }
+.container-btn{
+    padding-left: 360px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}    
 .amount{
     text-align: center;
     border-bottom: 1px solid;
@@ -52,25 +57,69 @@ a{
     margin-right: 350px;
     margin-bottom: 40px;
 }
-.button{
-    text-align: center;
-    padding-bottom: 100px;
-}
 #other{
     padding-bottom: 20px;
 }
-form{
-    border: 3px solid bisque;
-    background-color: bisque;
-    margin-left: 100px;
-    margin-right: 100px;
+.button{
+    text-align: center;
+    padding-bottom: 100px;
     margin-bottom: 100px;
-    padding: 40px 40px 40px 40px;
 }
-.container-btn{
-   padding-left: 360px;
-   margin-bottom: 50px;
-   font-size: 20px;
+.icon{
+    display: flex;
+    padding-left: 90px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    margin-bottom: 150px;
+}
+h3{
+    padding-top: 10px;
+}#box-food-education{
+    width: 200%;
+    background-color: burlywood;
+    margin-right: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#food-education{
+    text-align: left;
+    padding-right: 40px;
+}
+.running{
+    padding-bottom: 200px;
+}
+h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.projects{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.projects img{
+    width: 100%;
+}
+#boximage{
+    width: 60%;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 20px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px 8px #888888;
+}
+form{
+    border: 1px solid burlywood;
+    background-color: burlywood;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    padding: 20px 20px 20px 20px;
+}
+.container{
+    padding-left: 220px;
+    padding-bottom: 40px; 
+    padding-top: 20px;  
 }
 input[type=submit] {
     background-color: red;
@@ -84,13 +133,44 @@ input[type=submit] {
     border-radius: 5px;
     padding: 10px;
     margin: 5px 0;
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     box-sizing: border-box;
 }
-.container{
-    padding-left: 360px;
-    padding-bottom: 40px; 
-    padding-top: 20px;  
+.btn-one{
+    background-color: rgba(255, 228, 196, 0.952);
+    padding: 40px 35px;
+    margin-right: 10px;
+    border: 2px bisque;
+    font-size: 15px;
+}
+.btn-two{
+    background-color: rgba(255, 228, 196, 0.952);
+    padding: 40px 35px;
+    margin-right: 10px;
+    border: 2px bisque;
+    font-size: 15px;
+}
+.btn-three{
+    background-color: rgba(255, 228, 196, 0.952);
+    padding: 40px 35px;
+    margin-right: 10px;
+    border: 2px bisque;
+    font-size: 15px;
+}
+.btn-four{
+    background-color: rgba(255, 228, 196, 0.952);
+    box-shadow: 2px 2px red;
+    padding: 40px 35px;
+    margin-right: 10px;
+    border: solid 1px red;
+    color: red;
+    font-size: 20px;
+}
+.btn-five{
+    background-color: rgba(255, 228, 196, 0.952);
+    padding: 40px 35px;
+    border: 2px bisque;
+    font-size: 15px;
 }
 footer{
     background-color: black;
@@ -106,34 +186,4 @@ footer{
 #footer-end{
     color: white;
     font-size: 20px;
-}
-.btn-one{
-    padding: 40px 35px;
-    margin-right: 10px;
-    border: 1px bisque;
-    font-size: 15px;
-}
-.btn-two{
-    padding: 40px 35px;
-    margin-right: 10px;
-    border: 1px bisque;
-    font-size: 15px;
-}
-.btn-three{
-    padding: 40px 35px;
-    margin-right: 10px;
-    border: 1px bisque;
-    font-size: 15px;
-}
-.btn-four{
-    padding: 40px 35px;
-    margin-right: 10px;
-    border: solid 1px red;
-    color: red;
-    font-size: 20px;
-}
-.btn-five{
-    padding: 40px 35px;
-    border: 1px bisque;
-    font-size: 15px;
 }
